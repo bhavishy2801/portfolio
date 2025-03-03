@@ -161,9 +161,8 @@ body {
       flex-direction: row; /* Align icons horizontally */
       justify-content: center; /* Center icons below content */
       gap: 10px; /* Add spacing between icons */
-      transform: translateY(720%) translateX(-100%); /* Reset transform property */
+      transform: translateY(720%) translateX(-150%); /* Reset transform property */
     }
-  
     .icon {
       margin: 0; /* Reset margins for horizontal alignment */
     }
