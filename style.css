@@ -1,11 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+SC:ital,wght@0,400;0,500;0,700;0,800;0,900;1,400;1,500;1,700;1,800;1,900&display=swap');
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    cursor: url("cursor.png"), auto;
 }
+
+.cursor-for-real {
+    cursor: url("cursor.png"), auto;
+}
+
 
 body {
     background: #121212;
@@ -48,6 +55,82 @@ body {
 
 }
 
+.dynapuff {
+  font-family: "DynaPuff", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.playpen-sans {
+    font-family: "Playpen Sans", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .alegreya-sc-regular {
+    font-family: "Alegreya SC", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .alegreya-sc-medium {
+    font-family: "Alegreya SC", serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .alegreya-sc-bold {
+    font-family: "Alegreya SC", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .alegreya-sc-extrabold {
+    font-family: "Alegreya SC", serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  .alegreya-sc-black {
+    font-family: "Alegreya SC", serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .alegreya-sc-regular-italic {
+    font-family: "Alegreya SC", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .alegreya-sc-medium-italic {
+    font-family: "Alegreya SC", serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .alegreya-sc-bold-italic {
+    font-family: "Alegreya SC", serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .alegreya-sc-extrabold-italic {
+    font-family: "Alegreya SC", serif;
+    font-weight: 800;
+    font-style: italic;
+  }
+  
+  .alegreya-sc-black-italic {
+    font-family: "Alegreya SC", serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+
 .home {
     height: 100vh;
     display: flex;
@@ -61,6 +144,13 @@ body {
     border-radius: 15px;
 }
 
+.miniver-regular {
+    font-family: "Miniver", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
 .home-content h1 {
     font-size: 30px;
     font-weight: 300;
@@ -68,7 +158,9 @@ body {
 }
 
 .home-content-h3 {
-    font-size: 35px;
+    font-size: 45px;
+    font-family: Alegreya SC;
+    font-style: italic;
     font-weight: 700;
     color: #00abf0;
 }
@@ -153,7 +245,7 @@ body {
     align-items: center;
     justify-content: center;
     padding-left: 3.5px;
-    padding-bottom: 10px;
+    padding-top: 3px;
     color: grey;
     width: 40px;
     height: 40px;
@@ -190,14 +282,18 @@ body {
     z-index: -1;
     transition: .5s;
 }
-.home-sci a:nth-child(3):before {
+.home-sci a:nth-child(5):before {
     content: '';
     position: absolute;
     top: 0;
     left: 0;
     width: 0%;
     height: 100%;
-    background-image: url(./src/assets/images/insta_gradient.jpg);
+    background: #f09433; 
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+    background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
     border-radius: 50%;
     z-index: -1;
     transition: .5s;
