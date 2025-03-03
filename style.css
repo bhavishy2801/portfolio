@@ -141,7 +141,30 @@ body {
 }
 
 .home-sci {
+    display: flex;
+    flex-direction: column; /* Icons are stacked vertically by default */
+    position: fixed;
     font-size: 30px;
-    position: absolute;
-    left: 35px;
+    left: 25px;
+    top: 50%;
+    transform: translateY(-50%); 
 }
+
+.icon {
+    margin: -10px 0;
+}
+
+@media screen and (max-width: 768px) {
+    .home-sci {
+      position: static; /* Remove fixed positioning */
+      margin-top: 20px; /* Add spacing above icons */
+      flex-direction: row; /* Align icons horizontally */
+      justify-content: center; /* Center icons below content */
+      gap: 10px; /* Add spacing between icons */
+      transform: translateY(720%) translateX(-100%); /* Reset transform property */
+    }
+  
+    .icon {
+      margin: 0; /* Reset margins for horizontal alignment */
+    }
+  }
