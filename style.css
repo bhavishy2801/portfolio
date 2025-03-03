@@ -154,14 +154,17 @@ body {
     margin: -10px 0;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 797px) {
     .home-sci {
-      position: static; /* Remove fixed positioning */
-      margin-top: 20px; /* Add spacing above icons */
+      display: flex;
+      position: relative; /* Remove fixed positioning */
       flex-direction: row; /* Align icons horizontally */
       justify-content: center; /* Center icons below content */
+      align-items: center;
+      margin: 0 auto;
+      width: 100%;
       gap: 10px; /* Add spacing between icons */
-      transform: translateY(720%) translateX(-150%); /* Reset transform property */
+      transform: translate(-300px, 20px);  /* Reset transform property */
     }
     .icon {
       margin: 0; /* Reset margins for horizontal alignment */
