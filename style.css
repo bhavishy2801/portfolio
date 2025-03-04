@@ -3,7 +3,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Alegreya+SC:ital,wght@0,400;0,500;0,700;0,800;0,900;1,400;1,500;1,700;1,800;1,900&display=swap');
 
 html {
+  cursor: url(assets/img/cursor.png), auto;
   user-select:none;
+  overflow-y: hidden;
 }
 
 :root {
@@ -61,7 +63,7 @@ header {
 }
 
 .logo h1 {
-  font-size: 1.5rem;
+  font-size: 1.9rem;
   font-weight: 700;
   letter-spacing: 1px;
 }
