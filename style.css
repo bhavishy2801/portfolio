@@ -5,7 +5,7 @@
 html {
   cursor: url(assets/img/cursor.png), auto;
   user-select:none;
-  overflow-y: hidden;
+  overflow: auto;
 }
 
 :root {
