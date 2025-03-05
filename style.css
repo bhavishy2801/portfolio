@@ -21,6 +21,11 @@ html {
   font-weight: 400;
   font-style: normal;
   font-variation-settings: "wdth" 100;
+  opacity: .7;
+}
+.dynapuff:hover {
+  opacity: 1;
+  transition: .5s;
 }
 
 .playpen-sans {
@@ -115,15 +120,23 @@ main {
   font-size: 1.5rem;
   margin-bottom: 2rem;
   line-height: 1.6;
+  opacity: 0.7;
 }
 
 .highlight {
-  font-size: 45px;
-  font-family: Alegreya SC;
-  font-style: italic;
+  font-size: 35px;
   font-weight: 700;
   color: #00abf0;
 }
+.highlight:hover {
+  color: #92f878;
+  transition: .5s;
+}
+.description:hover {
+  opacity: 1;
+  transition: opacity .5s;
+}
+
 
 .cta-buttons {
   display: flex;
@@ -281,8 +294,8 @@ main {
   }
   
   .social-sidebar {
-    position: fixed;
-    margin-top: 4.5rem;
+    position: absolute;
+    top: 50%;
   }
 
   .cta-buttons {
@@ -310,16 +323,6 @@ main {
     justify-content: center;
   }
 
-  .social-sidebar {
-    position: relative;
-    left: 0;
-    top: 0;
-    transform: none;
-    flex-direction: row;
-    justify-content: center;
-    margin-top: 3rem;
-    margin-bottom: 2rem;
-  }
 }
 
 @media (max-width: 768px) {
@@ -350,6 +353,19 @@ main {
   .description {
     font-size: 1.2rem;
   }
+
+
+  .social-sidebar {
+    position: relative;
+    left: 0;
+    top: 0;
+    transform: none;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+  }
+
 }
 
 @media (max-width: 480px) {

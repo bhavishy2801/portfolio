@@ -34,12 +34,36 @@
     <main>
       <div class="content">
         <div class="text-content">
-          <h2 class="dynapuff">Hi There! I'm Bhavishy</h2>
-          <div class="description playpen-sans">
-            <p>A <span class="highlight">Versatile Developer</span> skilled in</p>
+          <span class="dynapuff" style="font-size: 2.5rem;"></span>
+          <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+          <script>
+            var typed = new Typed(".dynapuff", {
+               strings : ["Hi There! I'm Bhavishy", "Welcome to my Portfolio :)"],
+               typeSpeed : 80,
+               backSpeed : 80,
+               looped : true,
+                cursorChar: '|',
+                cursorChar: '<span style="font-size: 3rem;">|</span>',
+                cursorBlinking: true
+            })
+            </script>
+          <div class="description playpen-sans new_highlight">
+            <p>A <span class="highlight"></span> skilled in</p>
             <p>frontend, backend, app, game development,</p>
             <p>and competitive programming solutions.</p>
           </div>
+          <script>
+            var typed = new Typed(".highlight", {
+               strings : ["VERSATILE", "WOW"],
+               typeSpeed : 50,
+               backSpeed : 50,
+               looped : true,
+               cursorChar: '|',
+              cursorChar: '<span style="font-size: 2.7rem;">|</span>',
+              cursorBlinking: true
+            })
+          </script>
+          <script src="script.js"></script>
           <div class="cta-buttons">
             <a href="#" class="btn hire-me">Hire Me</a>
             <a href="#" class="btn talk">Let's Talk</a>
