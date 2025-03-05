@@ -38,29 +38,48 @@
           <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
           <script>
             var typed = new Typed(".dynapuff", {
-               strings : ["Hi There! I'm Bhavishy", "Welcome to my Portfolio :)"],
-               typeSpeed : 80,
-               backSpeed : 80,
+               strings : ["Hi There! I'm Bhavishy", "Welcome to my Portfolio :)", "Bringing Innovation to Life ツ", "Turning ideas into reality ¯⁠\\\_(ツ)_/¯"],
+               typeSpeed : 50,
+               backSpeed : 50,
                looped : true,
                 cursorChar: '|',
                 cursorChar: '<span style="font-size: 3rem;">|</span>',
-                cursorBlinking: true
+                cursorBlinking: true,
+                onComplete: (self) => {
+                self.cursor.remove();
+              }
             })
             </script>
           <div class="description playpen-sans new_highlight">
-            <p>A <span class="highlight"></span> skilled in</p>
-            <p>frontend, backend, app, game development,</p>
-            <p>and competitive programming solutions.</p>
+            <p>A <span class="highlight"></span> skilled in <br>
+              <span class="highlight_new"></span> development
+              and competitive programming solutions.</p>
           </div>
           <script>
             var typed = new Typed(".highlight", {
-               strings : ["VERSATILE", "WOW"],
-               typeSpeed : 50,
+               strings : ["VERSATILE DEVELOPER", "COMPETITIVE PROGRAMMER", "WEB DEVELOPER", "APP DEVELOPER", "BLOCKCHAIN DEVELOPER"],
+               typeSpeed : 80,
                backSpeed : 50,
                looped : true,
                cursorChar: '|',
               cursorChar: '<span style="font-size: 2.7rem;">|</span>',
-              cursorBlinking: true
+              cursorBlinking: true,
+              onComplete: (self) => {
+                self.cursor.remove();
+              }
+            })
+          </script>
+          <script>
+            var typed = new Typed(".highlight_new", {
+               strings : ["frontend, backend, app, blockchain"],
+               typeSpeed : 80,
+               looped : true,
+               cursorChar: '|',
+              cursorChar: '<span style="font-size: 2rem;">|</span>',
+              cursorBlinking: true,
+              onComplete: (self) => {
+                self.cursor.remove();
+              }
             })
           </script>
           <script src="script.js"></script>
