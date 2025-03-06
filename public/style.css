@@ -5,11 +5,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&display=swap');
 
 html {
-  cursor: url(src/assets/img/cursor.png), auto;
+  cursor: url("https://img.icons8.com/?size=24&id=jLkEh2zFhThT&format=png&color=228BE6"), auto;
   user-select:none;
   overflow: auto;
   scroll-behavior: smooth;
 }
+
+a {
+  cursor: url("https://img.icons8.com/?size=24&id=11205&format=png&color=228BE6"), auto;
+}
+
 
 :root {
   --primary-color: #00b7ff;
