@@ -22,13 +22,23 @@
 </script>
 <script>
   function sendMail() {
-    let parms = {
+    var parms = {
       name : document.getElementById("name").value,
       email : document.getElementById("email").value,
       message : document.getElementById("message").value
-    }
-
-    emailjs.send("service_abovcme", "template_e42s1mg", parms).then(alert("Email Sent!!"));
+    };
+    const serviceID = "service_abovcme";
+    const templateID = "template_e42s1mg";
+    emailjs
+    .send(serviceID, templateID, parms)
+    .then((res) => {
+        document.getElementById("name").value = "";
+        document.getElementById("email").value = "";
+        document.getElementById("message").value = "";
+        console.log(res);
+        alert("Message sent successfully!");
+      })
+      .catch((err) => console.log(err));
   }
 </script>
 </head>
@@ -364,17 +374,17 @@
             <form>
                 <!-- Name -->
                 <div class="form-group position-relative">
-                  <input type="text" id="formName" class="form-control thick" placeholder="Name">
+                  <input type="text" id="name" class="form-control thick" placeholder="Name">
                 </div>
                 <br>
                 <!-- E-mail -->
                 <div class="form-group position-relative">
-                  <input type="email" id="formEmail" class="form-control thick" placeholder="E-mail">
+                  <input type="email" id="email" class="form-control thick" placeholder="E-mail">
                 </div>
                 <br>
                 <!-- Message -->
                 <div class="form-group message">
-                  <textarea id="formMessage" class="form-control" rows="7" placeholder="Message"></textarea>
+                  <textarea id="message" class="form-control" rows="7" placeholder="Message"></textarea>
                 </div>
                 <br>
                 <!-- Submit btn -->
