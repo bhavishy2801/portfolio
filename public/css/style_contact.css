@@ -3,7 +3,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Alegreya+SC:ital,wght@0,400;0,500;0,700;0,800;0,900;1,400;1,500;1,700;1,800;1,900&display=swap');
 @import url("https://fonts.googleapis.com/css?family=Raleway");
 @import url('https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&display=swap');
-@import url("./../../css/stars.scss");
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Macondo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
 
 html {
   cursor: url("https://img.icons8.com/?size=24&id=jLkEh2zFhThT&format=png&color=228BE6"), auto;
@@ -22,7 +27,7 @@ a {
   --text-color: rgba(255, 255, 255, 0.87);
   --background-color: #0a0a0a;
   --font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-}
+} 
 
 .custom-codeforces-icon {
     background-image: url("src/assets/img/codeforces.png");
@@ -64,7 +69,7 @@ body {
   line-height: 1.5;
   min-height: 100vh;
   position: relative;
-  overflow-x: hidden;
+  overflow: auto;
 }
 
 .container {
@@ -112,8 +117,9 @@ header {
 }
 
 .logo h1 {
-  font-size: 1.9rem;
-  font-weight: 700;
+  font-family: "Urbanist", sans-serif;
+  font-size: 2rem;
+  font-weight: 400;
   letter-spacing: 1px;
 }
 
@@ -216,7 +222,6 @@ main {
 .glowing-btn {
   position: relative;
   color: var(--glow-color);
-  cursor: url("https://img.icons8.com/?size=24&id=11205&format=png&color=228BE6"), auto;
   padding: 0.35em 1em;
   border: 0.15em solid var(--glow-color);
   border-radius: 0.45em;
@@ -436,6 +441,18 @@ main {
   filter: brightness(1.8);
 }
 
+.neon-glow {
+  opacity: 0.6;
+  transition: opacity .5s ease-in;
+}
+
+.image-content:hover .neon-glow {
+  transition: opacity .5s ease-out;
+  opacity: 1;
+  filter: drop-shadow(0 0 10px #74d8ff) brightness(1.5);
+}
+
+
 /* Social sidebar */
 .social-sidebar {
   position: fixed;
@@ -585,7 +602,7 @@ main {
 
 }
 
-@media (max-width: 768px) {
+@media (max-width: 897px) {
   header {
     flex-direction: column;
     gap: 1.5rem;
