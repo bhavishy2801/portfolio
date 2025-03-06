@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Alegreya+SC:ital,wght@0,400;0,500;0,700;0,800;0,900;1,400;1,500;1,700;1,800;1,900&display=swap');
 @import url("https://fonts.googleapis.com/css?family=Raleway");
 @import url('https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&display=swap');
-@import "stars.scss";
+@import url(./../../stars.scss);
 
 html {
   cursor: url(src/assets/img/cursor.png), auto;
