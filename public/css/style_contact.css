@@ -855,8 +855,20 @@ form {
   box-shadow:0 0 50px white;
   
 }
+@media (max-width: 465px) {
 
-
+  #message {
+    width: 120%;
+    height: auto;
+    translate: -1.8rem;
+  }
+  .container-contact-form {
+    translate: -.5rem;
+  }
+  body {
+    overflow-x: hidden;
+  }
+}
 
 @media (max-width: 425px) {
   .container {
@@ -880,19 +892,77 @@ form {
     font-size: 1.1rem;
     gap: 3rem;
   }
-
-  .message {
-    text-align: center;
-    size-adjust: .8;
+  .container-contact-form {
+    padding: 0 1rem;
+    gap: 2rem;
   }
 }
+@media (max-width: 315px) {
 
+  form {
+    padding: 0 1rem;
+    scale: .9;
+  }
+  .container-contact-form {
+      gap: 1rem;
+  }
+}
 @media (max-width: 292px) {
   header {
     white-space: nowrap;
   }
 }
 
+@media (max-width: 285px) {
+
+  form {
+    padding: 0 1rem;
+    scale: .85;
+  }
+  .container-contact-form {
+    gap: 0rem;
+  }
+}
+
+@media (max-width: 265px) {
+
+  form {
+    padding: 0 1rem;
+    scale: .8;
+  }
+}
+
+@media (max-width: 248px) {
+
+  form {
+    padding: 0 1rem;
+    scale: .75;
+  }
+}
+
+@media (max-width: 235px) {
+
+  form {
+    padding: 0 1rem;
+    scale: .7;
+  }
+}
+
+@media (max-width: 217px) {
+
+  form {
+    padding: 0 1rem;
+    scale: .65;
+  }
+}
+
+@media (max-width: 201px) {
+
+  form {
+    padding: 0 1rem;
+    scale: .6;
+  }
+}
 #stars {
   width: 1px;
   height: 1px;
