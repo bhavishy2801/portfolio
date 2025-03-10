@@ -65,7 +65,7 @@ a {
 body {
   font-family: var(--font-family);
   color: var(--text-color);
-  background-color: var(--background-color);
+  background-color: black;
   line-height: 1.5;
   min-height: 100vh;
   position: relative;
