@@ -191,6 +191,10 @@ main {
   transition: opacity .5s;
 }
 
+.skills {
+  display: flex;
+  flex-direction: column;
+}
 
 .cta-buttons {
   cursor: url("https://img.icons8.com/?size=24&id=11205&format=png&color=228BE6"), auto;
