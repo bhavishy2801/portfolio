@@ -196,6 +196,33 @@ main {
   flex-direction: column;
 }
 
+.progress {
+  height: .75rem;
+  background: var(--secondary);
+  border-radius: 0;
+  box-shadow: none;
+  margin-bottom: 30px;
+  overflow: visible;
+}
+
+.progress .progress-bar {
+  position: relative;
+  background: var(--text-color);
+  animation: animate-positive 2s;
+  overflow: visible;
+  opacity: 0.9;
+}
+
+.progress .progress-value {
+  position: absolute;
+  top: -30px;
+  right: 8px;
+  font-size: 17px;
+  font-weight: bold;
+  font-style: italic;
+  color: var(--text-color);
+}
+
 .cta-buttons {
   cursor: url("https://img.icons8.com/?size=24&id=11205&format=png&color=228BE6"), auto;
   display: flex;
