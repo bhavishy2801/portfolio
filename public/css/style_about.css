@@ -11,14 +11,14 @@
 
 
 html {
-  cursor: url("https://img.icons8.com/?size=24&id=jLkEh2zFhThT&format=png&color=228BE6"), auto;
+  cursor: url("https://img.icons8.com/?size=24&id=jLkEh2zFhThT&format=png&color=FFB6C1"), auto;
   user-select:none;
   overflow: auto;
   scroll-behavior: smooth;
 }
 
 a {
-  cursor: url("https://img.icons8.com/?size=24&id=11205&format=png&color=228BE6"), auto;
+  cursor: url("https://img.icons8.com/?size=24&id=11205&format=png&color=FFB6C1"), auto;
 }
 
 
@@ -232,7 +232,7 @@ main {
 
 
 .cta-buttons {
-  cursor: url("https://img.icons8.com/?size=24&id=11205&format=png&color=228BE6"), auto;
+  cursor: url("https://img.icons8.com/?size=24&id=11205&format=png&color=FFB6C1"), auto;
   display: flex;
   gap: 1rem;
   margin-top: 2rem;

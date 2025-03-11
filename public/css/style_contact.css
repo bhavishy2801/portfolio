@@ -11,18 +11,18 @@
 
 
 html {
-  cursor: url("https://img.icons8.com/?size=24&id=jLkEh2zFhThT&format=png&color=228BE6"), auto;
+  cursor: url("https://img.icons8.com/?size=24&id=jLkEh2zFhThT&format=png&color=90EE90"), auto;
   user-select:none;
   overflow: auto;
   scroll-behavior: smooth;
 }
 
 a {
-  cursor: url("https://img.icons8.com/?size=24&id=11205&format=png&color=228BE6"), auto;
+  cursor: url("https://img.icons8.com/?size=24&id=11205&format=png&color=90EE90"), auto;
 }
 
 input {
-  cursor: url("https://img.icons8.com/?size=24&id=78941&format=png&color=228BE6"), auto;
+  cursor: url("https://img.icons8.com/?size=24&id=78941&format=png&color=90EE90"), auto;
 }
 
 :root {
@@ -264,7 +264,7 @@ form {
 	  }
 	
 	.message .form-control {
-    cursor: url("https://img.icons8.com/?size=24&id=78941&format=png&color=228BE6"), auto;
+    cursor: url("https://img.icons8.com/?size=24&id=78941&format=png&color=90EE90"), auto;
     width: 25rem;
 			padding: .5rem .8rem;
 	}
@@ -288,7 +288,7 @@ form {
 }
 
 .btn.btn-primary {
-  cursor: url("https://img.icons8.com/?size=24&id=11205&format=png&color=228BE6"), auto;
+  cursor: url("https://img.icons8.com/?size=24&id=11205&format=png&color=90EE90"), auto;
   font-family: 'Quicksand', sans-serif;
 	font-weight: bold;
   height: 2.5rem;
@@ -309,7 +309,7 @@ form {
 
 
 .cta-buttons {
-  cursor: url("https://img.icons8.com/?size=24&id=11205&format=png&color=228BE6"), auto;
+  cursor: url("https://img.icons8.com/?size=24&id=11205&format=png&color=90EE90"), auto;
   display: flex;
   gap: 1rem;
   margin-top: 2rem;
