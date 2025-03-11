@@ -26,7 +26,7 @@ input {
 }
 
 :root {
-  --primary-color: #00b7ff;
+  --primary-color: lightgreen;
   --text-color: rgba(255, 255, 255, 0.87);
   --background-color: #0a0a0a;
   --font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
@@ -107,7 +107,7 @@ header {
 
 .hover_h1 a{
   color: transparent;
-  -webkit-text-stroke: .9px #00abf0;
+  -webkit-text-stroke: .9px lightgreen;
   text-decoration: none;
 }
 
@@ -125,7 +125,7 @@ header {
 
 @keyframes slidein {
   to {
-    color: #00abf0;
+    color: lightgreen;
     background-clip: text;
     -webkit-text-stroke: 1.5px black;
       width: 100%;
@@ -153,11 +153,11 @@ nav a {
   transition: color 0.3s;
 }
 
-
-
-nav a:hover,
 nav a.active {
   color: var(--primary-color);
+}
+nav a:hover {
+  color: black;
 }
 
 /* Main content styles */
@@ -195,14 +195,14 @@ main {
 .highlight {
   font-size: 35px;
   font-weight: 700;
-  color: #00abf0;
+  color: lightgreen;
 }
 .highlight_new {
   font-size: 25px;
   font-weight: 500;
 }
 .highlight:hover {
-  color: cyan;
+  color: lightgreen;
   transition: .5s;
 }
 .description:hover {
@@ -254,7 +254,7 @@ form {
     width: 16rem;
     background-color: rgba(255, 255, 255, 0.11);
 		border-radius: 1rem;
-    border: cyan;
+    border: lightgreen;
     box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.11);
 		
     &.thick {
@@ -326,7 +326,7 @@ form {
 }
 
 :root {
-  --glow-color: hsl(186 100% 69%);
+  --glow-color: lightgreen;
 }
 
 *,
@@ -627,7 +627,7 @@ form {
 }
 
 .twi::before {
-  background: #00abf0;
+  background: lightgreen;
 }
 .codf::before {
   background: white;
@@ -821,8 +821,8 @@ form {
 }
 .glowing-circle li:nth-child(2){
   animation-delay:-1.2s;
-  background:cyan;
-  box-shadow:0 0 50px cyan;
+  background:lightgreen;
+  box-shadow:0 0 50px lightgreen;
   
 }
 .glowing-circle li:nth-child(3){
@@ -833,8 +833,8 @@ form {
 }
 .glowing-circle li:nth-child(4){
   animation-delay:-0.8s;
-  background:cyan;
-  box-shadow:0 0 50px cyan;
+  background:lightgreen;
+  box-shadow:0 0 50px lightgreen;
   
 }
 .glowing-circle li:nth-child(5){
@@ -845,8 +845,8 @@ form {
 }
 .glowing-circle li:nth-child(6){
   animation-delay:-0.4s;
-  background:cyan;
-  box-shadow:0 0 50px cyan;
+  background:lightgreen;
+  box-shadow:0 0 50px lightgreen;
   
 }
 .glowing-circle li:nth-child(7){

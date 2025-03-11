@@ -136,9 +136,11 @@ nav a {
   transition: color 0.3s;
 }
 
-nav a:hover,
 nav a.active {
   color: var(--primary-color);
+}
+nav a:hover {
+  color: black;
 }
 
 /* Main content styles */

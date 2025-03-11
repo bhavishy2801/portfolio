@@ -23,7 +23,7 @@ a {
 
 
 :root {
-  --primary-color: #00b7ff;
+  --primary-color: #effd5f;
   --text-color: rgba(255, 255, 255, 0.87);
   --background-color: #0a0a0a;
   --font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
@@ -90,7 +90,7 @@ header {
 
 .hover_h1 a{
   color: transparent;
-  -webkit-text-stroke: .9px #00abf0;
+  -webkit-text-stroke: .9px #effd5f;
   text-decoration: none;
 }
 
@@ -108,7 +108,7 @@ header {
 
 @keyframes slidein {
   to {
-    color: #00abf0;
+    color: #effd5f;
     background-clip: text;
     -webkit-text-stroke: 1.5px black;
       width: 100%;
@@ -136,9 +136,11 @@ nav a {
   transition: color 0.3s;
 }
 
-nav a:hover,
 nav a.active {
   color: var(--primary-color);
+}
+nav a:hover {
+  color: black;
 }
 
 /* Main content styles */
@@ -176,19 +178,55 @@ main {
 .highlight {
   font-size: 35px;
   font-weight: 700;
-  color: #00abf0;
+  color: #effd5f;
 }
 .highlight_new {
   font-size: 25px;
   font-weight: 500;
 }
 .highlight:hover {
-  color: cyan;
+  color: #effd5f;
   transition: .5s;
 }
 .description:hover {
   opacity: 1;
   transition: opacity .5s;
+}
+
+.skills {
+  display: flex;
+  flex-direction: column;
+}
+
+/* .skill {
+  display: flex;
+  flex-direction: row;
+}  */
+
+
+.progress {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  top: 50%;
+  left: 15%;
+  height: .75rem;
+  background: var(--secondary);
+  border-radius: 0;
+  box-shadow: none;
+  overflow: visible;
+}
+
+.progress .progress-bar {
+  position: relative;
+  width: 30%;
+  height: 10px;
+  top: 130%;
+  background-color: white;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
 }
 
 
@@ -210,7 +248,7 @@ main {
 }
 
 :root {
-  --glow-color: hsl(186 100% 69%);
+  --glow-color: #effd5f;
 }
 
 *,
@@ -438,7 +476,7 @@ main {
   max-width: 100%;
   height: auto;
   transform: scale(1.3);
-  filter: brightness(1.8);
+  filter: brightness(1.8);  
 }
 
 .neon-glow {
@@ -613,6 +651,9 @@ main {
     gap: 2rem;
   }
   
+  .progress .progress-bar {
+    top: 70%;
+  }
 
   nav ul li a {
     font-size: 0.8rem;
@@ -690,8 +731,8 @@ main {
 }
 .glowing-circle li:nth-child(2){
   animation-delay:-1.2s;
-  background:cyan;
-  box-shadow:0 0 50px cyan;
+  background:#effd5f;
+  box-shadow:0 0 50px #effd5f;
   
 }
 .glowing-circle li:nth-child(3){
@@ -702,8 +743,8 @@ main {
 }
 .glowing-circle li:nth-child(4){
   animation-delay:-0.8s;
-  background:cyan;
-  box-shadow:0 0 50px cyan;
+  background:#effd5f;
+  box-shadow:0 0 50px #effd5f;
   
 }
 .glowing-circle li:nth-child(5){
@@ -714,8 +755,8 @@ main {
 }
 .glowing-circle li:nth-child(6){
   animation-delay:-0.4s;
-  background:cyan;
-  box-shadow:0 0 50px cyan;
+  background:#effd5f;
+  box-shadow:0 0 50px #effd5f;
   
 }
 .glowing-circle li:nth-child(7){
