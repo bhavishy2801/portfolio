@@ -11,19 +11,19 @@
 
 
 html {
-  cursor: url("https://img.icons8.com/?size=24&id=jLkEh2zFhThT&format=png&color=228BE6"), auto;
+  cursor: url("https://img.icons8.com/?size=24&id=jLkEh2zFhThT&format=png&color=FFB6C1"), auto;
   user-select:none;
   overflow: auto;
   scroll-behavior: smooth;
 }
 
 a {
-  cursor: url("https://img.icons8.com/?size=24&id=11205&format=png&color=228BE6"), auto;
+  cursor: url("https://img.icons8.com/?size=24&id=11205&format=png&color=FFB6C1"), auto;
 }
 
 
 :root {
-  --primary-color: #00b7ff;
+  --primary-color: lightpink;
   --text-color: rgba(255, 255, 255, 0.87);
   --background-color: #0a0a0a;
   --font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
@@ -69,7 +69,7 @@ body {
   line-height: 1.5;
   min-height: 100vh;
   position: relative;
-  overflow: auto;
+  overflow-x: hidden;
 }
 
 .container {
@@ -90,7 +90,7 @@ header {
 
 .hover_h1 a{
   color: transparent;
-  -webkit-text-stroke: .9px #00abf0;
+  -webkit-text-stroke: .9px lightpink;
   text-decoration: none;
 }
 
@@ -108,7 +108,7 @@ header {
 
 @keyframes slidein {
   to {
-    color: #00abf0;
+    color: lightpink;
     background-clip: text;
     -webkit-text-stroke: 1.5px black;
       width: 100%;
@@ -129,6 +129,7 @@ nav ul {
   gap: 2rem;
 }
 
+
 nav a {
   color: var(--text-color);
   text-decoration: none;
@@ -136,9 +137,11 @@ nav a {
   transition: color 0.3s;
 }
 
-nav a:hover,
 nav a.active {
   color: var(--primary-color);
+}
+nav a:hover {
+  color: black;
 }
 
 /* Main content styles */
@@ -176,14 +179,14 @@ main {
 .highlight {
   font-size: 35px;
   font-weight: 700;
-  color: #00abf0;
+  color: lightpink;
 }
 .highlight_new {
   font-size: 25px;
   font-weight: 500;
 }
 .highlight:hover {
-  color: cyan;
+  color: lightpink;
   transition: .5s;
 }
 .description:hover {
@@ -191,9 +194,45 @@ main {
   transition: opacity .5s;
 }
 
+.skills {
+  display: flex;
+  flex-direction: column;
+}
+
+/* .skill {
+  display: flex;
+  flex-direction: row;
+}  */
+
+
+.progress {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  top: 50%;
+  left: 15%;
+  height: .75rem;
+  background: var(--secondary);
+  border-radius: 0;
+  box-shadow: none;
+  overflow: visible;
+}
+
+.progress .progress-bar {
+  position: relative;
+  width: 30%;
+  height: 10px;
+  top: 130%;
+  background-color: white;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
 
 .cta-buttons {
-  cursor: url("https://img.icons8.com/?size=24&id=11205&format=png&color=228BE6"), auto;
+  cursor: url("https://img.icons8.com/?size=24&id=11205&format=png&color=FFB6C1"), auto;
   display: flex;
   gap: 1rem;
   margin-top: 2rem;
@@ -210,7 +249,7 @@ main {
 }
 
 :root {
-  --glow-color: hsl(186 100% 69%);
+  --glow-color: pink;
 }
 
 *,
@@ -238,7 +277,6 @@ main {
     0px 0px 0.5em 0px var(--glow-color);
   box-shadow: inset 0px 0px 0.5em 0px var(--glow-color),
     0px 0px 0.5em 0px var(--glow-color);
-  animation: border-flicker 3s linear infinite;
 }
 
 .glowing-txt {
@@ -249,7 +287,6 @@ main {
   -moz-text-shadow: 0 0 0.125em hsl(0 0% 100% / 0.3),
     0 0 0.45em var(--glow-color);
   text-shadow: 0 0 0.125em hsl(0 0% 100% / 0.3), 0 0 0.45em var(--glow-color);
-  animation: text-flicker 3s linear infinite;
 }
 
 .glowing-txt-unflickered {
@@ -438,7 +475,7 @@ main {
   max-width: 100%;
   height: auto;
   transform: scale(1.3);
-  filter: brightness(1.8);
+  filter: brightness(1.8);  
 }
 
 .neon-glow {
@@ -613,6 +650,9 @@ main {
     gap: 2rem;
   }
   
+  .progress .progress-bar {
+    top: 70%;
+  }
 
   nav ul li a {
     font-size: 0.8rem;
@@ -690,8 +730,8 @@ main {
 }
 .glowing-circle li:nth-child(2){
   animation-delay:-1.2s;
-  background:cyan;
-  box-shadow:0 0 50px cyan;
+  background:lightpink;
+  box-shadow:0 0 50px lightpink;
   
 }
 .glowing-circle li:nth-child(3){
@@ -702,8 +742,8 @@ main {
 }
 .glowing-circle li:nth-child(4){
   animation-delay:-0.8s;
-  background:cyan;
-  box-shadow:0 0 50px cyan;
+  background:lightpink;
+  box-shadow:0 0 50px lightpink;
   
 }
 .glowing-circle li:nth-child(5){
@@ -714,8 +754,8 @@ main {
 }
 .glowing-circle li:nth-child(6){
   animation-delay:-0.4s;
-  background:cyan;
-  box-shadow:0 0 50px cyan;
+  background:lightpink;
+  box-shadow:0 0 50px lightpink;
   
 }
 .glowing-circle li:nth-child(7){
