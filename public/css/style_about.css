@@ -26,7 +26,6 @@ a {
   --primary-color: lightpink;
   --text-color: rgba(255, 255, 255, 0.87);
   --background-color: #0a0a0a;
-  --font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
 }
 
 .custom-codeforces-icon {
@@ -36,15 +35,15 @@ a {
     display: block;
 }
 
-.dynapuff {
-  font-family: "DynaPuff", system-ui;
+.ppsans {
+  font-family: "Playpen Sans", cursive;
   font-optical-sizing: auto;
-  font-weight: 400;
+  font-weight: 700;
   font-style: normal;
   font-variation-settings: "wdth" 100;
   opacity: .7;
 }
-.dynapuff:hover {
+.ppsans:hover {
   opacity: 1;
   transition: .5s;
 }
@@ -63,7 +62,6 @@ a {
 }
 
 body {
-  font-family: var(--font-family);
   color: var(--text-color);
   background-color: var(--background-color);
   line-height: 1.5;

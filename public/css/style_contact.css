@@ -39,15 +39,15 @@ input {
     display: block;
 }
 
-.dynapuff {
-  font-family: "DynaPuff", system-ui;
+.ppsans {
+  font-family: "Playpen Sans", cursive;
   font-optical-sizing: auto;
-  font-weight: 400;
+  font-weight: 700;
   font-style: normal;
   font-variation-settings: "wdth" 100;
   opacity: .7;
 }
-.dynapuff:hover {
+.ppsans:hover {
   opacity: 1;
   transition: .5s;
 }
