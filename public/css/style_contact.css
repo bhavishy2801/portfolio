@@ -127,7 +127,7 @@ header {
   to {
     color: lightgreen;
     background-clip: text;
-    -webkit-text-stroke: 1.5px black;
+    -webkit-text-stroke: .5px white;
       width: 100%;
       filter: drop-shadow(0 0 100px white);
   }
