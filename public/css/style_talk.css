@@ -23,10 +23,9 @@ a {
 
 
 :root {
-  --primary-color: lightpink;
+  --primary-color: rgb(228, 104, 104);
   --text-color: rgba(255, 255, 255, 0.87);
   --background-color: #0a0a0a;
-  --font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
 }
 
 .custom-codeforces-icon {
@@ -36,15 +35,15 @@ a {
     display: block;
 }
 
-.dynapuff {
-  font-family: "DynaPuff", system-ui;
+.ppsans {
+  font-family: "Playpen Sans", cursive;
   font-optical-sizing: auto;
-  font-weight: 400;
+  font-weight: 700;
   font-style: normal;
   font-variation-settings: "wdth" 100;
   opacity: .7;
 }
-.dynapuff:hover {
+.ppsans:hover {
   opacity: 1;
   transition: .5s;
 }
@@ -63,7 +62,6 @@ a {
 }
 
 body {
-  font-family: var(--font-family);
   color: var(--text-color);
   background-color: var(--background-color);
   line-height: 1.5;
@@ -90,7 +88,7 @@ header {
 
 .hover_h1 a{
   color: transparent;
-  -webkit-text-stroke: .9px lightpink;
+  -webkit-text-stroke: .9px rgb(228, 104, 104);
   text-decoration: none;
 }
 
@@ -108,9 +106,9 @@ header {
 
 @keyframes slidein {
   to {
-    color: lightpink;
+    color: rgb(228, 104, 104);
     background-clip: text;
-    -webkit-text-stroke: 1.5px black;
+    -webkit-text-stroke: 1.5px white;
       width: 100%;
       filter: drop-shadow(0 0 100px white);
   }
@@ -179,14 +177,14 @@ main {
 .highlight {
   font-size: 35px;
   font-weight: 700;
-  color: lightpink;
+  color: rgb(228, 104, 104);
 }
 .highlight_new {
   font-size: 25px;
   font-weight: 500;
 }
 .highlight:hover {
-  color: lightpink;
+  color: rgb(228, 104, 104);
   transition: .5s;
 }
 .description:hover {
@@ -249,7 +247,7 @@ main {
 }
 
 :root {
-  --glow-color: pink;
+  --glow-color: rgb(228, 104, 104);
 }
 
 *,
@@ -730,8 +728,8 @@ main {
 }
 .glowing-circle li:nth-child(2){
   animation-delay:-1.2s;
-  background:lightpink;
-  box-shadow:0 0 50px lightpink;
+  background:rgb(228, 104, 104);
+  box-shadow:0 0 50px rgb(228, 104, 104);
   
 }
 .glowing-circle li:nth-child(3){
@@ -742,8 +740,8 @@ main {
 }
 .glowing-circle li:nth-child(4){
   animation-delay:-0.8s;
-  background:lightpink;
-  box-shadow:0 0 50px lightpink;
+  background:rgb(228, 104, 104);
+  box-shadow:0 0 50px rgb(228, 104, 104);
   
 }
 .glowing-circle li:nth-child(5){
@@ -754,8 +752,8 @@ main {
 }
 .glowing-circle li:nth-child(6){
   animation-delay:-0.4s;
-  background:lightpink;
-  box-shadow:0 0 50px lightpink;
+  background:rgb(228, 104, 104);
+  box-shadow:0 0 50px rgb(228, 104, 104);
   
 }
 .glowing-circle li:nth-child(7){
