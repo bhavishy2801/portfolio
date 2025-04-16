@@ -449,7 +449,7 @@ main {
 .image-content:hover .neon-glow {
   transition: opacity .5s ease-out;
   opacity: 1;
-  filter: drop-shadow(0 0 10px #74d8ff) brightness(1.5);
+  filter: drop-shadow(0 0 10px #74d8ff) brightness(2);
 }
 
 
