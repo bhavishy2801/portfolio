@@ -625,7 +625,7 @@ form {
 }
 
 .twi::before {
-  background: lightgreen;
+  background: #00abf0;
 }
 .codf::before {
   background: white;
