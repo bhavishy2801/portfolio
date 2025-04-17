@@ -813,7 +813,11 @@ main {
 @media (max-width: 897px) {
 
   body {
-    margin-right: 3vh;
+    margin-right: .8rem;
+  }
+
+  main {
+    margin-right: .3rem;
   }
 
   header {

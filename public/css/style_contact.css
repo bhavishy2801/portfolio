@@ -853,6 +853,19 @@ form {
   box-shadow:0 0 50px white;
   
 }
+
+@media (max-width: 897px) {
+
+  body {
+    margin-right: .8rem;
+  }
+
+  main {
+    margin-right: .3rem;
+  }
+
+}
+
 @media (max-width: 465px) {
 
   #message {
