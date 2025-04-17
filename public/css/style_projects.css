@@ -313,6 +313,7 @@ main {
   }
   figure.snip1477 h2 {
     font-weight: 400;
+    opacity: 0;
   }
   figure.snip1477 h4 {
     display: block;
@@ -349,6 +350,13 @@ main {
     -webkit-opacity: 0.2;
     opacity: 0.2;
   }
+
+  figure.snip1477.hover h2,
+  figure.snip1477:hover h2 {
+    font-weight: 400;
+    opacity: 1;
+  }
+
   figure.snip1477:hover .title:before,
   figure.snip1477.hover .title:before,
   figure.snip1477:hover .title:after,
