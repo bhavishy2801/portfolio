@@ -308,8 +308,9 @@ main {
   }
   figure.proj-img h2,
   figure.proj-img h4 {
+    font-family: 'Comic Sans MS';
+    font-weight: 400;
     margin: 0;
-    text-transform: uppercase;
   }
   figure.proj-img h2 {
     font-weight: 400;
@@ -347,8 +348,8 @@ main {
   figure.proj-img.hover img {
     zoom: 1;
     filter: alpha(opacity=15);
-    -webkit-opacity: 0.2;
-    opacity: 0.2;
+    -webkit-opacity: 0.15;
+    opacity: 0.15;
   }
 
   figure.proj-img.hover h2,
@@ -810,6 +811,11 @@ main {
 }
 
 @media (max-width: 897px) {
+
+  body {
+    margin-right: 3vh;
+  }
+
   header {
     flex-direction: column;
     gap: 1.5rem;
