@@ -61,7 +61,7 @@ This will start a local server, and you can view the portfolio at `http://localh
 Feel free to reach out via:
 
 - **Email**: bhavishyrocker2801@gmail.com | agrawalbhavishy2801@gmail.com
-- **LinkedIn**: [linkedin.com/in/bhavishyagrawal](https://linkedin.com/in/bhavishy2801)
+- **LinkedIn**: [linkedin.com/in/bhavishy2801](https://linkedin.com/in/bhavishy2801)
 - **Twitter**: [@AgrawalBha48438](https://x.com/AgrawalBha48438)
 - **Instagram**: [@celexa.fr_2801](https://www.instagram.com/celexa.fr_2801)
 - **Buy Me A Coffee**: [@Rocker2801](https://bhavishyagrawal.vercel.app/buymeacoffee.com/Rocker2801)
