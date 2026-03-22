@@ -23,7 +23,7 @@ The project is organized as follows:
 - **`scripts/app.js`**: The JavaScript file for interactive functionalities.
 - **`assets/images/`**: Directory containing images used throughout the portfolio.
 
-## 🛠️ Installation
+## Installation
 
 To test my website locally:
 
