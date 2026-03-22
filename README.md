@@ -2,18 +2,18 @@
 
 Welcome to my personal portfolio repository! This website showcases my skills and projects in web development, app development, game development, and competitive programming.
 
-## 🚀 Live Demo
+## Live Demo
 
 You can view the live version of my portfolio at [https://bhavishyagrawal.vercel.app/](https://bhavishyagrawal.vercel.app/).
 
-## 🧰 Technologies Used
+## Technologies Used
 
 - **Frontend:** HTML, CSS (SCSS), JavaScript
 - **Backend:** Node.js (for local development)
 - **Frameworks:** None (Vanilla JS)
 - **Deployment:** Vercel
 
-## 📁 Project Structure
+## Project Structure
 
 The project is organized as follows:
 
@@ -49,14 +49,14 @@ To test my website locally:
 
 This will start a local server, and you can view the portfolio at `http://localhost:3000`.
 
-## ✨ Features
+## Features
 
 - **Interactive UI**: Engaging design with smooth transitions.
 - **Responsive Layout**: Optimized for all screen sizes.
 - **Project Showcase**: Highlights of my work in various domains.
 - **Contact Form**: Easy way to get in touch with me.
 
-## 📫 Contact
+## Contact
 
 Feel free to reach out via:
 
@@ -67,7 +67,7 @@ Feel free to reach out via:
 - **Buy Me A Coffee**: [@Rocker2801](https://bhavishyagrawal.vercel.app/buymeacoffee.com/Rocker2801)
 
 
-## 🔧 Development
+## Development
 
 To contribute or modify the portfolio:
 
@@ -90,6 +90,6 @@ To contribute or modify the portfolio:
 
 6. Create a new Pull Request.
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
